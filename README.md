@@ -12,12 +12,14 @@ This is a simple console-based implementation of the classic Tic-Tac-Toe game in
 
 ## Description
 
-This project is a command-line Tic-Tac-Toe game written in C++. It allows two players to take turns making moves on a 3x3 grid. The game ends when one player wins by forming a line of three of their symbols (either 'x' or 'o') horizontally, vertically, or diagonally, or when the grid is full, resulting in a draw.
+This project is a Tic-Tac-Toe game written in C++. It allows two players to take turns making moves on a 3x3 grid. The game ends when one player wins by forming a line of three of their symbols (either 'x' or 'o') horizontally, vertically, or diagonally, or when the grid is full, resulting in a draw.
+![image](https://github.com/Pramod025/Tic-Tac-Toe/assets/57028365/2bdca0bb-e9ae-4845-80ad-45f01c360578)
+
 
 ## Features
 
 - Two players can play the game.
-- Clear and user-friendly console interface.
+- Clear and user-friendly interface.
 - Checks for a win or draw after each move.
 - Option to start a new game after the current one ends.
 - Displays the winner or declares a draw at the end of the game.
