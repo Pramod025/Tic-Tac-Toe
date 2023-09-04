@@ -36,4 +36,4 @@ This project is a command-line Tic-Tac-Toe game written in C++. It allows two pl
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/Pramod025/tic-tac-toe.git
