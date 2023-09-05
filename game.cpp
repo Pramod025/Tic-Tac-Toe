@@ -31,18 +31,13 @@ void getPlayerMove() {
             col = (digit - 1) % 3;
         }
         else cout << "Invalid move. Try again." << endl;
-if(token=='x'&&space[row][col]!='x'&&space[row][col]!='o')
+    if((token=='x'||token=='o')&&space[row][col]!='x'&&space[row][col]!='o')
     {
        space[row][col] = token;
     token = (token == 'x' ? 'o' : 'x'); // Switch player's turn
     }
-    else if(token=='o'&&space[row][col]!='x'&&space[row][col]!='o')
-    {
-        space[row][col] = token;
-    token = (token == 'x' ? 'o' : 'x'); // Switch player's turn
-    }
     else{
-        cout<<"There s no empty space. Invalid move. Try again."<<endl;
+        cout<<"There's no empty space. Invalid move. Try again."<<endl;
         getPlayerMove();}
 
 }
@@ -113,7 +108,7 @@ int main() {
 
         cout << "Do you want to play again (y/n): ";
         cin >> wannaplay;
-        if(wannaplay=='n') cout<<"Thanks for playing Mygame!!!";
+        if(wannaplay=='n') cout<<"Thanks for playing mygame!!!";
     } while (wannaplay == 'y');
 
     return 0;
